@@ -6,5 +6,8 @@
  - Create BeGain project
 
 ### 2023/10/25
- - Create user story
+ - Create user stories
+### 2023/10/27
+ - Start creating login page
+
 
