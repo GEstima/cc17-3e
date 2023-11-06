@@ -10,12 +10,94 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign In"
-        android:textSize="40sp"
-        android:textStyle="bold"
+        android:text="BeGain Shop"
         android:textColor="@color/black"
-        tools:layout_editor_absoluteX="143dp"
-        tools:layout_editor_absoluteY="167dp" />
+        android:textSize="40sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="57dp" />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In/Login Account"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email:"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="285dp"
+        android:layout_height="44dp"
+        android:layout_centerInParent="true"
+        android:text="Input email"
+        android:textColor="@color/grey"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username:"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="285dp"
+        android:layout_height="44dp"
+        android:layout_centerInParent="true"
+        android:text="Input username"
+        android:textColor="@color/grey"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password:"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="normal"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="446dp" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="285dp"
+        android:layout_height="44dp"
+        android:layout_centerInParent="true"
+        android:text="Input password"
+        android:textColor="@color/grey"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:onClick="signUp"
+        android:padding="15dp"
+        android:text="Submit"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.811"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/passwordEditText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
