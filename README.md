@@ -10,4 +10,7 @@
 ### 2023/10/27
  - Start creating login page
 
+### 2023/11/6
+ - Continue login page, created adding product page
+
 
