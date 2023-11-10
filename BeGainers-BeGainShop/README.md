@@ -13,4 +13,7 @@
 ### 2023/11/6
  - Continue login page, created adding product page
 
+### 2023/11/10
+ - Added dashboard, created: shopping page, user profile
+
 
